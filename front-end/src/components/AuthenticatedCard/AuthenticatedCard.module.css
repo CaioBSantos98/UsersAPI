@@ -1,0 +1,23 @@
+.container {
+    height: 50px;
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+    padding: 5px;
+    border-top: 2px solid;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    border-radius: 8px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+}
+
+.authenticated {
+    background-color: rgb(80, 255, 80);
+}
+
+.notAuthenticated {
+    background-color: rgb(252, 60, 60);
+}

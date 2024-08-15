@@ -1,0 +1,14 @@
+:root {
+    --principal-color: lightgray;
+    --secondary-color: #a8e1f2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--principal-color);
+}
